@@ -1,0 +1,43 @@
+.circleChartContainer {
+  display: flex;
+  align-items: center;
+}
+
+.circleChart {
+  width: 170px;
+  height: 170px;
+}
+
+.circleChartText {
+  margin-left: 20px;
+}
+
+.circleChartText p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.circleChartText p::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.circleChartText p:nth-child(1)::before {
+  background-color: #b9140f;
+}
+
+.circleChartText p:nth-child(2)::before {
+  background-color: #fad732;
+}
+
+.circleChartText p:nth-child(3)::before {
+  background-color: #a9cac4;
+}
+
+.circleChartText p:nth-child(4)::before {
+  background-color: #19a55a;
+}

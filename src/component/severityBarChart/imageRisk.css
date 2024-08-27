@@ -1,0 +1,83 @@
+/* src/components/severityBarChart/imageRisk.css */
+
+.heading {
+  margin-top: 10px;
+  display: inline-flex;
+  justify-content: safe;
+}
+
+h4 {
+  padding-right: 10px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.progress-bar-container {
+  display: flex;
+  width: 400px;
+  height: 14px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.progress-bar-segment {
+  height: 100%;
+}
+
+.critical {
+  background-color: #6e0f0a;
+}
+
+.high {
+  background-color: #c82819;
+}
+
+.medium {
+  background-color: #eb9132;
+}
+
+.low {
+  background-color: #f0c341;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.legend-color.critical {
+  background-color: #6e0f0a;
+}
+
+.legend-color.high {
+  background-color: #c82819;
+}
+
+.legend-color.medium {
+  background-color: #eb9132;
+}
+
+.legend-color.low {
+  background-color: #f0c341;
+}

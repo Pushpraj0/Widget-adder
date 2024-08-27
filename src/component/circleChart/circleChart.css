@@ -1,0 +1,35 @@
+.circle-chart-container {
+  display: flex;
+  align-items: center;
+}
+
+.circle-chart {
+  width: 170px;
+  height: 170px;
+}
+
+.circle-chart-text {
+  margin-left: 20px;
+}
+
+.circle-chart-text p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.circle-chart-text p::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.circle-chart-text p:nth-child(1)::before {
+  background-color: #5578ff;
+}
+
+.circle-chart-text p:nth-child(2)::before {
+  background-color: #e1ebff;
+}

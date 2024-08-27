@@ -1,0 +1,36 @@
+  [
+    {
+      "Name": "Cloud Accounts",
+      "Connected": 2,
+      "Not Connected": 2
+    },
+    {
+      "Name": "Cloud Account Risk Assessment",
+      "myObj": {
+        "Failed": 1689,
+        "Warning": 681,
+        "Not Available": 36,  
+        "Passed": 7253
+      }
+    },
+    {
+      "Name": "Image Risk Assessment",
+      "Total Vulnerabilities":1470, 
+      "myObj": {
+        "Critical": 9,
+        "High": 150,
+        "Medium": 811,
+        "Low": 500
+      }
+    },
+    {
+      "Name": "Image Security Issues",
+      "Total Images": 2,
+      "myObj": {
+        "Critical": 2,
+        "High": 2,
+        "Medium": 2,
+        "Low": 1
+      }
+    }
+  ]

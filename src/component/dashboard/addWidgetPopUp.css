@@ -1,0 +1,109 @@
+.add-widget-popup {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 600px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(134, 125, 125, 0.1);
+}
+
+.popup-header {
+  margin: 0;
+  padding: 0;
+  background-color: #14147d;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-header h4 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.personalize-text {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.close-btn {
+  color: white;
+  background: transparent;
+  border: none;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.popup-categories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.popup-categories button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: gray;
+}
+
+.popup-categories .selected {
+  color: #14147d;
+  font-weight: bold;
+}
+
+.popup-content {
+  margin-top: 20px;
+  display: grid;
+}
+
+.checkbox-container {
+  padding: 10px;
+  display: grid;
+}
+
+.input {
+  border: 2px solid rgb(170, 159, 159);
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.popup-actions {
+  position: absolute;
+  bottom: 20px;
+  left: 400px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.cancel-btn {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.confirm-btn {
+  background-color: #0f1941;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}

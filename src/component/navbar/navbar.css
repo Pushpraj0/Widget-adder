@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.hometext {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-right: 5px;
+  color: rgb(170, 159, 159);
+}
+
+.arrow {
+  color: rgb(170, 159, 159);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.dash {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(20, 45, 84);
+  margin-left: 5px;
+  margin-right: 500px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: rgb(170, 159, 159);
+  font-size: 20px;
+}
+
+.searchField {
+  border: 2px solid rgb(125, 125, 241);
+  border-radius: 7px;
+  background-color: #edf2f7;
+  color: rgb(170, 159, 159);
+  width: 500px;
+  height: 22px;
+  padding-left: 35px;
+  font-size: 16px;
+  overflow: visible;
+}
+
+.bell {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.bellIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  filter: invert(24%) sepia(6%) saturate(185%) hue-rotate(327deg)
+    brightness(100%) contrast(89%);
+  transition: transform 0.2s ease-in-out;
+}
+
+.dropdown {
+  margin-left: 10px;
+  border: transparent;
+}
+
+.dropdownMenu {
+  border: transparent;
+}
+
+.loggedPerson {
+  border: none;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.loggedIcon {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+  filter: invert(24%) opacity(100%) hue-rotate(357deg);
+}
