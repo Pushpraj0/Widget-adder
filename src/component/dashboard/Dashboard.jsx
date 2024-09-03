@@ -20,9 +20,8 @@ export default function Dashboard() {
   };
 
   const addWidget = (newWidgets) => {
-    console.log('New Widgets:', newWidgets); // Debugging line
+    console.log('New Widgets:', newWidgets); 
 
-    // Create widget components based on the widget names
     const newWidgetComponents = newWidgets.map((widget, index) => {
       switch (widget) {
         case 'cloud account':
@@ -38,7 +37,7 @@ export default function Dashboard() {
       }
     });
 
-    // Add new widgets to the state
+    
     setWidgets([...widgets, ...newWidgetComponents]);
   };
 
@@ -98,7 +97,6 @@ export default function Dashboard() {
           </div>
         </div>
         <div className="widget-container">
-          {/* Render the added widgets */}
           {widgets.map((WidgetComponent, index) => (
             <div className="widget" key={index}>
               {WidgetComponent}
@@ -158,7 +156,6 @@ export default function Dashboard() {
           </div>
         </div>  
       </div>
-      {/* Render the Add Widget Popup */}
       {showPopup && <AddWidgetPopUp closePopup={togglePopup} addWidget={addWidget} />}
     </div>
   );
